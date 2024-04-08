@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+.side {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.side img {
+    width: 100%;
+    height: auto;
+}
+
+.side a {
+    background-color: aqua;
+}
+
+.threeSection {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.input {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxes input {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px; /* Add padding for better spacing */
+    margin-bottom: 10px; /* Add margin bottom for better separation */
+}
+
+.log {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.log button {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+}
